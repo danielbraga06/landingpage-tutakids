@@ -1,0 +1,707 @@
+/* Basic Styling */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 150px;
+}
+
+/* AQUI COMEÇA O menu */
+.menu {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.menu .content-menu {
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.menu .content-menu .box-left_menu {
+  width: 50%;
+}
+
+.menu .content-menu .box-right_menu {
+  width: 50%;
+}
+
+.menu .content-menu .box-right_menu h1 {
+  line-height: 1;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu .content-menu .box-right_menu p {
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  margin: auto;
+  width: 90%;
+}
+
+/* AQUI TERMINA O menu */
+
+/* AQUI COMEÇA O SECONDARY */
+.secondary {
+  background-color: #fff;
+  text-align: center;
+}
+
+.secondary .content-secondary {
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.secondary .content-secondary .box-left_secondary {
+  width: 50%;
+}
+
+.secondary .content-secondary .box-left_secondary img {
+  width: 500px;
+}
+
+.secondary .content-secondary .box-right_secondary {
+  width: 50%;
+}
+
+.secondary .content-secondary .box-right_secondary h1 {
+  line-height: 1;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.secondary .content-secondary .box-right_secondary p {
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  margin: auto;
+  width: 90%;
+}
+
+button {
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 100;
+  color: white;
+  background-color: #19c149;
+  border: none;
+  border-radius: 30px;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+button:hover {
+  box-shadow: 0 0.25em 0.5em #0000001a, 0 4px 8px #00000026, 0 0 4px #0000000d;
+}
+/* AQUI TERMINA O SECONDARY */
+
+/* AQUI COMEÇA O DETALHES */
+
+.details {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  background: #f7f7f7;
+}
+
+.details h1 {
+  line-height: 1;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.details .details-content {
+  justify-content: space-between;
+  display: flex;
+  width: 1400px;
+  margin: auto;
+}
+
+.details .details-content .card {
+  margin-top: 30px;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+  background: #fff;
+}
+
+.details .details-content .card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.details .details-content .card h2 {
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 70%;
+  line-height: 1;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* AQUI TERMINA O DETALHES */
+
+/* AQUI COMEÇA O EXCLUSIVIDADES */
+
+.exclusivo {
+  padding: 50px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.exclusivo .exclusivo-content h1 {
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.exclusivo .exclusivo-content img {
+  margin-bottom: 30px;
+  width: 600px;
+}
+
+.exclusivo .exclusivo-content p {
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  margin: auto;
+  width: 60%;
+}
+/* AQUI TERMINA O EXCLUSIVIDADES */
+
+.container {
+  padding: 80px 0;
+  max-width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Columns */
+.left-column {
+  width: 50%;
+  position: relative;
+}
+
+.right-column {
+  width: 50%;
+}
+
+/* Left Column */
+.left-column img {
+  width: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.left-column img.active {
+  opacity: 1;
+}
+
+/* Right Column */
+
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.product-description h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+/* PREÇO */
+
+.preco h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.preco h3 #preco{
+  margin-left: 20px;
+  font-size: 50px;
+  color: #19c149;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.preco #a-vista {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+/* Product Configuration */
+.product-color span,
+.cable-config span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #86939E;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Product Color */
+.product-color {
+  margin: 30px 0;
+}
+
+.color-choose div {
+  display: inline-block;
+}
+
+.color-choose input[type="submit"] {
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #5E6977;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  transition: all .5s;
+}
+
+.color-choose input[type="submit"] + label span {
+  display: flex;
+}
+
+.color-choose input:hover,
+.color-choose input:active,
+.color-choose input:focus {
+  box-shadow: 0 0.25em 0.5em #0000001a, 0 4px 8px #00000026, 0 0 4px #0000000d;
+  border: 2px solid #86939E;
+  outline: none;
+}
+
+.color-choose input[type="submit"]:checked + label span {
+  background-image: url(images/check-icn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Cable Configuration */
+.cable-choose {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+
+.cable-choose button {
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  padding: 13px 20px;
+  font-size: 14px;
+  color: #5E6977;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.cable-choose button:hover,
+.cable-choose button:active,
+.cable-choose button:focus {
+  border: 2px solid #86939E;
+  outline: none;
+}
+
+.cable-config {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.cable-config a {
+  color: #358ED7;
+  text-decoration: none;
+  font-size: 12px;
+  position: relative;
+  margin: 10px 0;
+  display: inline-block;
+}
+.cable-config a:before {
+  content: "?";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid rgba(53, 142, 215, 0.5);
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  opacity: 0.5;
+  margin-right: 5px;
+}
+
+.cart-btn {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  background-color: #19c149;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 80px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #0c792b;
+}
+
+/* AQUI COMEÇA GARANTIAS */
+
+.garantias {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  background: #f7f7f7;
+}
+
+.garantias h1 {
+  line-height: 1;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.garantias .garantias_content {
+  justify-content: space-between;
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.garantias .garantias_content .card_garantia {
+  margin-top: 30px;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 280px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0 0.25em 0.5em #0000001a, 0 4px 8px #00000026, 0 0 4px #0000000d;
+}
+
+.garantias .garantias_content .card_garantia img {
+  padding-top: 20px;
+  width: 120px;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.garantias .garantias_content .card_garantia h2 {
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 70%;
+  line-height: 1;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.garantias .garantias_content .card_garantia p {
+  padding-top: 30px;
+  margin: auto;
+  width: 70%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* AQUI TERMINA GARANTIAS */
+
+/* AQUI COMEÇA QUESTIONS */
+.question_container {
+  padding: 30px 0;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 800px;
+}
+
+.question_container .questions {
+  padding-top: 5px;
+}
+
+.question_container .button-questions {
+  text-align: center;
+}
+
+/* AQUI TERMINA QUESTIONS */
+
+/* ROOTER */
+
+.rooter {
+  background: #f7f7f7;
+  padding: 30px 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.rooter h3 {
+  font-size: 25px;
+}
+
+/* ROOTER */
+
+/* RESPONSIVE */
+
+@media only screen and (max-device-width: 768px) {
+  .logo img {
+      padding: none;
+      width: 130px;
+  }
+  
+  .menu .content-menu {
+      padding: 50px 0;
+      flex-direction: column;
+  }
+
+  .menu .content-menu .box-left_menu {
+      width: 100%;
+  }
+
+  .menu .content-menu .box-left_menu img {
+    width: 100%;
+}
+
+  .menu .content-menu .box-right_menu {
+      width: 100%;
+  }
+  .menu .content-menu .box-right_menu h1 {
+      font-size: 30px;
+  }
+
+  .menu .content-menu .box-right_menu p {
+      font-size: 20px;
+  }
+
+  .secondary {
+    height: 100%;
+      width: 100%;
+  }
+
+  .secondary .content-secondary {
+    padding: 50px 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .secondary .content-secondary .box-left_secondary {
+    width: 100%;
+  }
+  
+  .secondary .content-secondary .box-left_secondary img {
+    width: 100%;
+  }
+
+  .secondary .content-secondary .box-right_secondary {
+    width: 100%;
+  }
+
+  .secondary .content-secondary .box-right_secondary h1 {
+    font-size: 30px;
+  }
+  
+  .secondary .content-secondary .box-right_secondary p {
+    font-size: 20px;
+  }
+  
+  button {
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 100;
+    color: white;
+    background-color: #19c149;
+    border: none;
+    border-radius: 30px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 30px;
+    text-decoration: none;
+  }
+  
+  .details h1 {
+    font-size: 30px;
+  }
+  
+  .details .details-content {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .details .details-content .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .details .details-content .card h2 {
+    font-size: 25px;
+  }  
+  
+  .exclusivo .exclusivo-content h1 {
+    font-size: 30px;
+  }
+  
+  .exclusivo .exclusivo-content img {
+    width: 100%;
+  }
+  
+  .exclusivo .exclusivo-content p {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .container {
+    height: 900px;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .left-column,
+  .right-column {
+    text-align: center;
+    width: 100%;
+  }
+
+  .right-column {
+
+    padding-top: 200px;
+  }
+
+  .left-column img {
+    margin-left: 35px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 535px) {
+  .left-column img {
+    top: -85px;
+  }
+
+  .product-description {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .product-description h1 {
+    font-size: 30px;
+  }
+  .product-description p {
+    font-size: 12px;
+  }
+  .preco h3 #preco{
+    font-size: 40px;
+  }
+  
+  /* Product Configuration */
+  .product-color span,
+  .cable-config span {
+    font-size: 15px;
+  }
+  
+  /* Product Color */
+  .product-color {
+    margin: 15px 0;
+  }
+  
+  .color-choose input[type="submit"] {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .cable-choose button {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .garantias {
+    flex-direction: column;
+    padding: 25px 0;
+  }
+  
+  .garantias h1 {
+    font-size: 30px;
+  }
+  
+  .garantias .garantias_content {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .garantias .garantias_content .card_garantia {
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  
+  .garantias .garantias_content .card_garantia img {
+    padding-top: 20px;
+    width: 120px;
+    border-radius: 20px 20px 0 0;
+  
+  }
+  
+  .garantias .garantias_content .card_garantia h2 {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 1;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .garantias .garantias_content .card_garantia p {
+    padding-top: 30px;
+    margin: auto;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .question_container {
+    width: 300px;
+  }
+  
+  .rooter h3 {
+    font-size: 20px;
+  } 
+
+  }
